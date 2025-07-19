@@ -1,12 +1,111 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ✅ React Todo App
 
-Currently, two official plugins are available:
+A sleek, minimal, and powerful Todo app built with **React**, **shadcn/ui**, and **Tailwind CSS**. Features include CRUD, filters, localStorage persistence, and dark mode support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[🚀 Live Demo](https://react-todo-pk.netlify.app//) &nbsp; | &nbsp; [📦 GitHub](https://github.com/karanpr01/React-Todo)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview
+
+![Light Mode](./public/screenshot-light.png)  
+
+![Dark Mode](./public/screenshot-dark.png)
+
+---
+
+## ✨ Features
+
+- 📝 Add, edit, delete todos
+- ✅ Mark as complete/incomplete
+- 🔎 Filter by all / active / completed
+- 🌙 Dark mode toggle
+- 💾 Data persists using localStorage
+- 📆 Shows creation date
+- 🧪 Form validation with inline error handling
+- ⚡ Fast and responsive (TailwindCSS + Radix UI)
+
+---
+
+## 📂 Folder Structure
+
+```
+src/
+│
+├── components/        # shadcn UI components
+├── TodoForm/          # AddTodo form
+├── TodoList/          # Todo list and items
+├── Hooks/             # useTodo custom hook
+├── App.jsx            # Main app component
+├── index.css          # Tailwind styles
+└── main.jsx           # App entry point
+```
+
+---
+
+## 🚀 Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **shadcn/ui** (Radix UI)
+- **LocalStorage** (for data persistence)
+- **Vite** (for fast dev server)
+
+---
+
+## 🛠 Setup Instructions
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/karanpr01/React-Todo.git
+cd React-Todo
+
+# 2. Install dependencies
+npm install
+
+# 3. Run the dev server
+npm run dev
+```
+
+---
+
+## 🎨 Customize Theme
+
+Dark mode is powered by `Tailwind` + `localStorage`:
+- Toggle with the 🌙/☀️ button in the header
+- Persisted between reloads
+
+---
+
+## 📈 Deployment
+
+Deployed via [Netlify](https://netlify.app/)
+
+To deploy yourself:
+1. Push this repo to GitHub
+2. Link it to Netlify
+3. Set build command: `npm run build`
+4. Set output directory: `dist`
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!  
+If you’d like to suggest improvements or report bugs, feel free to [open an issue](https://github.com/karanpr01/React-Todo/issues).
+
+---
+
+## 📄 License
+
+[MIT License](./LICENSE)
+
+---
+
+## 🙋‍♂️ Author
+
+Made with ❤️ by [@karanpr01](https://github.com/karanpr01)
+
+Connect on [LinkedIn](https://www.linkedin.com/in/prem-karn-a8707b36a)  
+Follow on [Twitter](https://x.com/PremAnilkarn1)  
